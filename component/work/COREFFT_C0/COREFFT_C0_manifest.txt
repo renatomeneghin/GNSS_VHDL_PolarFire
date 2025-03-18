@@ -1,0 +1,16 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2024.2 (Version 2024.2.0.13)
+
+Date      :  Mon Mar 17 23:06:26 2025
+Project   :  F:\Users\Renato\Documents\UFSC\Monografia\MestradUFSC
+Component :  COREFFT_C0
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    F:/Users/Renato/Documents/UFSC/Monografia/MestradUFSC/component/work/COREFFT_C0/COREFFT_C0_0/rtl/in_place/vhdl/core/COREFFT_C0_COREFFT_C0_0_lsram_g5.vhd
+    F:/Users/Renato/Documents/UFSC/Monografia/MestradUFSC/component/work/COREFFT_C0/COREFFT_C0_0/rtl/in_place/vhdl/core/twiddle32.vhd
+    F:/Users/Renato/Documents/UFSC/Monografia/MestradUFSC/component/work/COREFFT_C0/COREFFT_C0.vhd
+
+Stimulus files for all Simulation tools:
+    F:/Users/Renato/Documents/UFSC/Monografia/MestradUFSC/component/work/COREFFT_C0/COREFFT_C0_0/rtl/in_place/vhdl/test/user/fft_testvectors.vhd
+

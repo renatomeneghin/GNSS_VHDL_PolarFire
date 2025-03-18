@@ -1,0 +1,80 @@
+
+****************
+Macro Parameters
+****************
+
+Name                            : COREFFT_C0_COREFFT_C0_0_lsram_g5
+Family                          : PolarFire
+Output Format                   : VHDL
+Type                            : RAM
+Write Block Enable Polarity     : Active High
+Read Block Enable Polarity      : None
+A_DOUT Enable Polarity          : Active High
+B_DOUT Enable Polarity          : None
+A_DOUT Sync-reset Polarity      : Active High
+B_DOUT Sync-reset Polarity      : None
+A_DOUT Async-reset Polarity     : None
+B_DOUT Async-reset Polarity     : None
+Reset Polarity                  : Active Low
+Read Clock Edge                 : Rising
+Write Clock Edge                : Rising
+A_REN Polarity                  : None
+B_REN Polarity                  : None
+Write Depth                     : 1024
+Write Width                     : 48
+Read Depth                      : 1024
+Read Width                      : 48
+Portname DataIn                 : DI
+Portname DataOut                : DO
+Portname WClock                 : WCLOCK
+Portname RClock                 : RCLOCK
+Portname WAddress               : WADDR
+Portname RAddress               : RADDR
+Portname Single Clock           : 
+Portname Single Async-reset     : DO_nGrst
+Portname DataAIn                : 
+Portname DataBIn                : 
+Portname DataAOut               : 
+Portname DataBOut               : 
+Portname AddressA               : 
+Portname AddressB               : 
+Portname CLKA                   : 
+Portname CLKB                   : 
+Portname RWA                    : 
+Portname RWB                    : 
+Portname BLKA                   : 
+Portname BLKB                   : 
+Portname A_DOUT_EN              : DO_en
+Portname B_DOUT_EN              : 
+Portname A_DOUT_SRST_N          : DO_rst
+Portname B_DOUT_SRST_N          : 
+Portname A_DOUT_ARST_N          : 
+Portname B_DOUT_ARST_N          : 
+Portname Write Enable           : WRB
+Portname Read Enable            : 
+Portname A_WBYTE_EN             : 
+Portname B_WBYTE_EN             : 
+Portname A_REN                  : 
+Portname B_REN                  : 
+LPM_HINT                        : 
+Device                          : 300
+RAM Type                        : Two Port
+Optimized for                   : Speed
+Initialize RAM                  : False
+Clocks                          : Independent Read and Write Clocks
+Byte Enables                    : No
+Read Pipeline A                 : No
+Read Pipeline B                 : Yes
+Write Mode A                    : Hold Data
+Write Mode B                    : Hold Data
+ECC Type                        : Disabled
+Lock access                     : Off
+ACCESS_BUSY                     : Disabled
+
+Cascade Configuration: 
+     Write Port configuration   : 1024x20
+     Read Port configuration    : 1024x20
+     Number of blocks depth wise: 1
+     Number of blocks width wise: 3
+
+Wrote VHDL netlist to F:/Users/Renato/Documents/UFSC/Monografia/MestradUFSC/component/work/COREFFT_C0/COREFFT_C0_0/rtl\in_place\vhdl\core\COREFFT_C0_COREFFT_C0_0_lsram_g5.vhd.

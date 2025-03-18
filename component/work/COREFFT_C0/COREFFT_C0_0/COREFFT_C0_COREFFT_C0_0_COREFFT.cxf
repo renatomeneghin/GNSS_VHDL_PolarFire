@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<component> 
+<vendor></vendor>
+<library></library>
+<name>COREFFT_C0_COREFFT_C0_0_COREFFT</name>
+<version></version>
+<hwModel>
+<views>
+<view>
+<name>HDL</name>
+<fileSetRef>HDL_FILESET</fileSetRef>
+</view>
+<view>
+<name>Simulation</name>
+<fileSetRef>STIMULUS_FILESET</fileSetRef>
+</view>
+</views>
+</hwModel>
+<fileSets>
+<fileSet fileSetId="HDL_FILESET">
+<file>
+<name>rtl\in_place\vhdl\core\COREFFT_C0_COREFFT_C0_0_lsram_g5.vhd</name>
+<userFileType>VHDLSource</userFileType>
+<logicalName>COREFFT_LIB</logicalName>
+</file>
+<file>
+<name>rtl\in_place\vhdl\core\twiddle32.vhd</name>
+<userFileType>VHDLSource</userFileType>
+<logicalName>COREFFT_LIB</logicalName>
+</file>
+<file>
+<name>input_vector.mon</name>
+<userFileType>VHDLSource</userFileType>
+<logicalName>COREFFT_LIB</logicalName>
+</file>
+</fileSet>
+<fileSet fileSetId="STIMULUS_FILESET">
+<file>
+<name>rtl\in_place\vhdl\test\user\fft_testvectors.vhd</name>
+<userFileType>VHDLSource</userFileType>
+<logicalName>COREFFT_LIB</logicalName>
+</file>
+</fileSet>
+</fileSets>
+</component>

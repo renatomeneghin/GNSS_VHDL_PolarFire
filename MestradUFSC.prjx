@@ -1,0 +1,399 @@
+KEY LIBERO "2024.2"
+KEY CAPTURE "2024.2.0.13"
+KEY DEFAULT_IMPORT_LOC ""
+KEY DEFAULT_OPEN_LOC ""
+KEY ProjectID "0"
+KEY HDLTechnology "VHDL"
+KEY VERILOGMODE "SYSTEMVERILOG"
+KEY VHDLMODE "VHDL2008"
+KEY SYSTEMVERILOGMFCU "FALSE"
+KEY UseConstraintFlowTechnology "TRUE"
+KEY VendorTechnology_Family "PolarFire"
+KEY VendorTechnology_Die "PA5M050T"
+KEY VendorTechnology_Package "fcsg325"
+KEY VendorTechnology_Speed "-1"
+KEY VendorTechnology_DieVoltage "1.0"
+KEY VendorTechnology_PART_RANGE "EXT"
+KEY VendorTechnology_DSW_VCCA_VOLTAGE_RAMP_RATE ""
+KEY VendorTechnology_IO_DEFT_STD "LVCMOS33"
+KEY VendorTechnology_OPCONR ""
+KEY VendorTechnology_PLL_SUPPLY ""
+KEY VendorTechnology_RAD_EXPOSURE ""
+KEY VendorTechnology_RESERVEMIGRATIONPINS "1"
+KEY VendorTechnology_RESTRICTPROBEPINS "1"
+KEY VendorTechnology_RESTRICTSPIPINS "0"
+KEY VendorTechnology_SYSTEM_CONTROLLER_SUSPEND_MODE "0"
+KEY VendorTechnology_TARGETDEVICESFORMIGRATION "PA5M050T"
+KEY VendorTechnology_TEMPR "EXT"
+KEY VendorTechnology_UNUSED_MSS_IO_RESISTOR_PULL "None"
+KEY VendorTechnology_VCCI_1.2_VOLTR "EXT"
+KEY VendorTechnology_VCCI_1.5_VOLTR "EXT"
+KEY VendorTechnology_VCCI_1.8_VOLTR "EXT"
+KEY VendorTechnology_VCCI_2.5_VOLTR "EXT"
+KEY VendorTechnology_VCCI_3.3_VOLTR "EXT"
+KEY VendorTechnology_VOLTR "EXT"
+KEY ProjectLocation "F:\Users\Renato\Documents\UFSC\Monografia\MestradUFSC"
+KEY ProjectDescription "Projeto para a recepção e aquisição de sinais GPS utilizando o FPGA Polar Fire"
+KEY UseRootLocationForLinkedFiles "FALSE"
+KEY RootLocationENVForLinkedFiles ""
+KEY RootLocationForLinkedFiles ""
+KEY GlobalIncludePaths ""
+KEY Pa4PeripheralNewSeq "GOOD"
+KEY MemoryMapDrcSeverity "FALSE"
+KEY LossOfDataDRCSeverity "TRUE"
+KEY IdWidthMismatchDRCSeverity "TRUE"
+KEY SimulationType "VHDL"
+KEY Vendor "Actel"
+LIST REVISIONS
+VALUE="Impl1",NUM=1
+CURREV=1
+ENDLIST
+LIST LIBRARIES
+COREFFT_LIB
+COREGPIO_LIB
+CORECORDIC_LIB
+COREDDS_LIB
+ENDLIST
+LIST LIBRARY_COREFFT_LIB
+ALIAS=COREFFT_LIB
+COMPILE_OPTION=COMPILE
+CUSTOMPATH=false
+ENDLIST
+LIST LIBRARY_COREGPIO_LIB
+ALIAS=COREGPIO_LIB
+COMPILE_OPTION=COMPILE
+CUSTOMPATH=false
+ENDLIST
+LIST LIBRARY_CORECORDIC_LIB
+ALIAS=CORECORDIC_LIB
+COMPILE_OPTION=COMPILE
+CUSTOMPATH=false
+ENDLIST
+LIST LIBRARY_COREDDS_LIB
+ALIAS=COREDDS_LIB
+COMPILE_OPTION=COMPILE
+CUSTOMPATH=false
+ENDLIST
+LIST GlobalIncludeFileList
+ENDLIST
+LIST FileManager
+VALUE "<project>\component\Actel\DirectCore\CORECORDIC\4.1.100\coreparameters.vhd,tb_hdl"
+STATE="utd"
+TIME="1741972668"
+SIZE="794"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CORECORDIC\4.1.100\rtl\vhdl\test\user\bhvKit.vhd,tb_hdl"
+STATE="utd"
+TIME="1741972668"
+SIZE="9281"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CORECORDIC\4.1.100\rtl\vhdl\test\user\bhv_pack.vhd,tb_hdl"
+STATE="utd"
+TIME="1741972668"
+SIZE="14551"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREDDS\4.0.108\coreparameters.vhd,tb_hdl"
+STATE="utd"
+TIME="1741972268"
+SIZE="1408"
+LIBRARY="COREDDS_LIB"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREDDS\4.0.108\rtl\vhdl\test\user\dds_bhv_pack.vhd,tb_hdl"
+STATE="utd"
+TIME="1741972268"
+SIZE="14551"
+LIBRARY="COREDDS_LIB"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\COREFFT\8.1.100\COREFFT.cxf,actgen_cxf"
+STATE="utd"
+TIME="1742263585"
+SIZE="544"
+PARENT="<project>\component\work\COREFFT_C0\COREFFT_C0.cxf"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreGPIO\3.2.102\rtl\vhdl\amba_bfm\misc.vhd,tb_hdl"
+STATE="utd"
+TIME="1741833343"
+SIZE="12779"
+LIBRARY="COREGPIO_LIB"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\Actel\DirectCore\CoreGPIO\3.2.102\rtl\vhdl\amba_bfm\textio.vhd,tb_hdl"
+STATE="utd"
+TIME="1741833343"
+SIZE="23828"
+LIBRARY="COREGPIO_LIB"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREFFT_C0\COREFFT_C0.cxf,actgen_cxf"
+STATE="utd"
+TIME="1742263586"
+SIZE="5324"
+ENDFILE
+VALUE "<project>\component\work\COREFFT_C0\COREFFT_C0.vhd,hdl"
+STATE="utd"
+TIME="1742263585"
+SIZE="10652"
+PARENT="<project>\component\work\COREFFT_C0\COREFFT_C0.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREFFT_C0\COREFFT_C0_0\COREFFT_C0_COREFFT_C0_0_COREFFT.cxf,actgen_cxf"
+STATE="utd"
+TIME="1742263585"
+SIZE="1123"
+PARENT="<project>\component\work\COREFFT_C0\COREFFT_C0.cxf"
+ENDFILE
+VALUE "<project>\component\work\COREFFT_C0\COREFFT_C0_0\rtl\in_place\vhdl\core\COREFFT_C0_COREFFT_C0_0_lsram_g5.vhd,hdl"
+STATE="utd"
+TIME="1742263585"
+SIZE="16959"
+LIBRARY="COREFFT_LIB"
+PARENT="<project>\component\work\COREFFT_C0\COREFFT_C0_0\COREFFT_C0_COREFFT_C0_0_COREFFT.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREFFT_C0\COREFFT_C0_0\rtl\in_place\vhdl\core\twiddle32.vhd,hdl"
+STATE="utd"
+TIME="1742263585"
+SIZE="106190"
+LIBRARY="COREFFT_LIB"
+PARENT="<project>\component\work\COREFFT_C0\COREFFT_C0_0\COREFFT_C0_COREFFT_C0_0_COREFFT.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\component\work\COREFFT_C0\COREFFT_C0_0\rtl\in_place\vhdl\test\user\fft_testvectors.vhd,tb_hdl"
+STATE="utd"
+TIME="1742263585"
+SIZE="846431"
+LIBRARY="COREFFT_LIB"
+PARENT="<project>\component\work\COREFFT_C0\COREFFT_C0_0\COREFFT_C0_COREFFT_C0_0_COREFFT.cxf"
+IS_READONLY="TRUE"
+ENDFILE
+VALUE "<project>\constraint\io\GPS_In.pdc,io_pdc"
+STATE="utd"
+TIME="1741976294"
+SIZE="0"
+ENDFILE
+VALUE "<project>\hdl\Acquisition.vhd,hdl"
+STATE="utd"
+TIME="1742263454"
+SIZE="1074"
+ENDFILE
+VALUE "<project>\hdl\hdl\contador.vhd,hdl"
+STATE="utd"
+TIME="1742262930"
+SIZE="932"
+ENDFILE
+VALUE "<project>\hdl\hdl\Controle.vhd,hdl"
+STATE="utd"
+TIME="1742262930"
+SIZE="2180"
+ENDFILE
+VALUE "<project>\hdl\hdl\Datapath.vhd,hdl"
+STATE="utd"
+TIME="1742262930"
+SIZE="2644"
+ENDFILE
+VALUE "<project>\hdl\hdl\Flip_Flop_D.vhd,hdl"
+STATE="utd"
+TIME="1742262930"
+SIZE="759"
+ENDFILE
+VALUE "<project>\hdl\hdl\MAX_2771_In.vhd,hdl"
+STATE="utd"
+TIME="1742263736"
+SIZE="1512"
+ENDFILE
+VALUE "<project>\hdl\hdl\Multiplier.vhd,hdl"
+STATE="utd"
+TIME="1742263746"
+SIZE="1904"
+ENDFILE
+VALUE "<project>\hdl\hdl\Register.vhd,hdl"
+STATE="utd"
+TIME="1742262930"
+SIZE="1320"
+ENDFILE
+VALUE "<project>\hdl\hdl\Somador.vhd,hdl"
+STATE="utd"
+TIME="1742262930"
+SIZE="980"
+ENDFILE
+VALUE "<project>\hdl\hdl\Zero_detector.vhd,hdl"
+STATE="utd"
+TIME="1742262930"
+SIZE="786"
+ENDFILE
+VALUE "<project>\simulation\MAX_2771_test.do,do"
+STATE="utd"
+TIME="1741977186"
+SIZE="0"
+ENDFILE
+ENDLIST
+LIST UsedFile
+ENDLIST
+LIST NewModulesInfo
+ENDLIST
+LIST AssociatedStimulus
+ENDLIST
+LIST Other_Association
+ENDLIST
+LIST SimulationOptions
+UseAutomaticDoFile=true
+IncludeWaveDo=true
+Type=max
+RunTime=1000ns
+Resolution=1ps
+VsimOpt=
+EntityName=testbench
+TopInstanceName=<top>_0
+DoFileName=
+DoFileName2=wave.do
+DoFileParams=
+DisplayDUTWave=false
+LogAllSignals=false
+DisablePulseFiltering=false
+DumpVCD=false
+VCDFileName=power.vcd
+VHDL2008=false
+Verilog2001=false
+SystemVerilog=false
+TimeUnit=1
+TimeUnitBase=ns
+Precision=100
+PrecisionBase=ps
+SdfCorner=slow_lv_ht
+PliPath=C:/Microchip/Libero_SoC_v2024.2/Designer/lib/questasim/pli/pf_crypto_win_questa_me64_pli.dll
+UseCustomPliPath=false
+ENDLIST
+LIST ModelSimLibPath
+UseCustomPath=FALSE
+LibraryPath=
+ENDLIST
+LIST GlobalFlowOptions
+GenerateHDLAfterSynthesis=FALSE
+GenerateHDLAfterPhySynthesis=FALSE
+RunDRCAfterSynthesis=FALSE
+AutoCheckConstraints=TRUE
+UpdateModelSimIni=TRUE
+NoIOMode=TRUE
+PeriInitStandalone=FALSE
+OnDemandBuildDH=TRUE
+EnableViewDraw=FALSE
+UpdateViewDrawIni=TRUE
+GenerateHDLFromSchematic=TRUE
+VmNetlistFlowOn=TRUE
+EnableDesignSeparationOn=FALSE
+EnableSETMitigationOn=FALSE
+DisplayFanoutLimit=10
+AbortFlowOnPDCErrorsOn=TRUE
+AbortFlowOnSDCErrorsOn=TRUE
+AbortFlowOn3.3V_IO_ON=FALSE
+InstantiateInSmartDesign=TRUE
+FlashProInputFile=pdb
+SmartGenCompileReport=T
+ENDLIST
+LIST PhySynthesisOptions
+ENDLIST
+LIST Profiles
+NAME="SoftConsole"
+FUNCTION="SoftwareIDE"
+TOOL="SoftConsole"
+LOCATION="eclipse.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Synplify Pro ME"
+FUNCTION="Synthesis"
+TOOL="Synplify Pro ME"
+LOCATION="C:\Microchip\Libero_SoC_v2024.2\SynplifyPro\bin\synplify_pro.exe"
+PARAM="-licensetype synplifypro_actel -batch -log synplify.log"
+BATCH=1
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="ModelSim ME Pro"
+FUNCTION="Simulation"
+TOOL="ModelSim Pro Edition"
+LOCATION="C:\Microchip\Libero_SoC_v2024.2\ModelSim\win32acoem\modelsim.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+NAME="Identify Debugger"
+FUNCTION="IdentifyDebugger"
+TOOL="Identify Debugger"
+LOCATION="C:\Microchip\Libero_SoC_v2024.2\Identify\bin\identify_debugger.exe"
+PARAM=""
+BATCH=0
+LICENSE=""
+IS32BIT="1"
+EndProfile
+ENDLIST
+LIST ProjectState5.1
+ENDLIST
+LIST ExcludePackageForSimulation
+ENDLIST
+LIST ExcludePackageForSynthesis
+ENDLIST
+LIST IncludeModuleForSimulation
+ENDLIST
+LIST CDBOrder
+ENDLIST
+LIST UserCustomizedFileList
+ENDLIST
+LIST OpenedFileList
+ORIENTATION;HORIZONTAL
+HDL;hdl\hdl\MAX_2771_In.vhd;0
+HDL;hdl\hdl\Multiplier.vhd;0
+HDL;hdl\Acquisition.vhd;0
+StartPage;StartPage;0
+ACTIVEVIEW;hdl\Acquisition.vhd
+ENDLIST
+LIST ModuleSubBlockList
+LIST "Acquisition::work","hdl\Acquisition.vhd","FALSE","FALSE"
+ENDLIST
+LIST "contador::work","hdl\hdl\contador.vhd","FALSE","FALSE"
+ENDLIST
+LIST "Controle::work","hdl\hdl\Controle.vhd","FALSE","FALSE"
+ENDLIST
+LIST "COREFFT_C0::work","component\work\COREFFT_C0\COREFFT_C0.cxf","TRUE","FALSE"
+ENDLIST
+LIST "Datapath::work","hdl\hdl\Datapath.vhd","FALSE","FALSE"
+SUBBLOCK "Flip_Flop_D::work","hdl\hdl\Flip_Flop_D.vhd","FALSE","FALSE"
+SUBBLOCK "UAL::work","hdl\hdl\Somador.vhd","FALSE","FALSE"
+SUBBLOCK "Zero_detector::work","hdl\hdl\Zero_detector.vhd","FALSE","FALSE"
+SUBBLOCK "contador::work","hdl\hdl\contador.vhd","FALSE","FALSE"
+SUBBLOCK "shift_reg64::work","hdl\hdl\Register.vhd","FALSE","FALSE"
+ENDLIST
+LIST "Flip_Flop_D::work","hdl\hdl\Flip_Flop_D.vhd","FALSE","FALSE"
+ENDLIST
+LIST "MAX_2771_In::work","hdl\hdl\MAX_2771_In.vhd","FALSE","FALSE"
+ENDLIST
+LIST "Multiplier::work","hdl\hdl\Multiplier.vhd","FALSE","FALSE"
+SUBBLOCK "Controle::work","hdl\hdl\Controle.vhd","FALSE","FALSE"
+SUBBLOCK "Datapath::work","hdl\hdl\Datapath.vhd","FALSE","FALSE"
+ENDLIST
+LIST "shift_reg64::work","hdl\hdl\Register.vhd","FALSE","FALSE"
+ENDLIST
+LIST "UAL::work","hdl\hdl\Somador.vhd","FALSE","FALSE"
+ENDLIST
+LIST "Zero_detector::work","hdl\hdl\Zero_detector.vhd","FALSE","FALSE"
+ENDLIST
+ENDLIST
+LIST ActiveTestBenchList
+ENDLIST
+LIST IOTabList
+VALUE "constraint\io\GPS_In.pdc"
+ENDLIST
+LIST FPTabList
+ENDLIST
+LIST TimingTabList
+ENDLIST
+LIST FDCTabList
+ENDLIST
