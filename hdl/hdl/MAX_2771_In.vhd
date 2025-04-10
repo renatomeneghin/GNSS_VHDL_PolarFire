@@ -23,7 +23,7 @@ use ieee.std_logic_arith.all;
 use work.all;
 
 entity MAX_2771_In is
-generic( out_size : integer := 8);
+generic( out_size : integer := 12);
 port (
     --<port_name> : <direction> <type>;
 	I_1 : IN  std_logic; -- I data signal
@@ -36,7 +36,6 @@ port (
 );
 end MAX_2771_In;
 architecture architecture_MAX_2771_In of MAX_2771_In is
-   -- signal, component etc. declarations
 
 begin
 

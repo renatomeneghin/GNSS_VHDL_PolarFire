@@ -11,7 +11,7 @@ use work.all;
 
 entity Multiplier is
 generic(
-	data_width : integer := 8
+	data_width : integer := 12
 );
 port(
 	-- 	Bit Inputs

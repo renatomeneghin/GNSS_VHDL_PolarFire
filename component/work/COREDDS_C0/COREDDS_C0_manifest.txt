@@ -1,0 +1,31 @@
+Microchip Technology Inc. - Microchip Libero Software Release v2024.2 (Version 2024.2.0.13)
+
+Date      :  Thu Apr  3 11:52:45 2025
+Project   :  F:\Users\Renato\Documents\UFSC\Monografia\MestradoUFSC\GNSS_VHDL_PolarFire
+Component :  COREDDS_C0
+Family    :  PolarFire
+
+
+HDL source files for all Synthesis and Simulation tools:
+    F:/Users/Renato/Documents/UFSC/Monografia/MestradoUFSC/GNSS_VHDL_PolarFire/component/work/COREDDS_C0/COREDDS_C0_0/plot.mon
+    F:/Users/Renato/Documents/UFSC/Monografia/MestradoUFSC/GNSS_VHDL_PolarFire/component/work/COREDDS_C0/COREDDS_C0_0/dds.mon
+    F:/Users/Renato/Documents/UFSC/Monografia/MestradoUFSC/GNSS_VHDL_PolarFire/component/work/COREDDS_C0/COREDDS_C0_0/TrigCorr.mon
+    F:/Users/Renato/Documents/UFSC/Monografia/MestradoUFSC/GNSS_VHDL_PolarFire/component/work/COREDDS_C0/COREDDS_C0_0/lut.mon
+    F:/Users/Renato/Documents/UFSC/Monografia/MestradoUFSC/GNSS_VHDL_PolarFire/component/work/COREDDS_C0/COREDDS_C0_0/rtl/vhdl/core/COREDDS_C0_COREDDS_C0_0_dds_g5_lsram.vhd
+    F:/Users/Renato/Documents/UFSC/Monografia/MestradoUFSC/GNSS_VHDL_PolarFire/component/work/COREDDS_C0/COREDDS_C0_0/COREDDS_C0_COREDDS_C0_0_dds_qrtr_sin.vhd
+    F:/Users/Renato/Documents/UFSC/Monografia/MestradoUFSC/GNSS_VHDL_PolarFire/component/work/COREDDS_C0/COREDDS_C0_0/COREDDS_C0_COREDDS_C0_0_dds_qrtr_cos.vhd
+    F:/Users/Renato/Documents/UFSC/Monografia/MestradoUFSC/GNSS_VHDL_PolarFire/component/work/COREDDS_C0/COREDDS_C0_0/rtl/vhdl/core/DDS_TOP.vhd
+    F:/Users/Renato/Documents/UFSC/Monografia/MestradoUFSC/GNSS_VHDL_PolarFire/component/work/COREDDS_C0/COREDDS_C0_0/rtl/vhdl/core/lut.vhd
+    F:/Users/Renato/Documents/UFSC/Monografia/MestradoUFSC/GNSS_VHDL_PolarFire/component/Actel/DirectCore/COREDDS/4.0.108/rtl/vhdl/core/dds_kit.vhd
+    F:/Users/Renato/Documents/UFSC/Monografia/MestradoUFSC/GNSS_VHDL_PolarFire/component/Actel/DirectCore/COREDDS/4.0.108/rtl/vhdl/core/dds_module.vhd
+    F:/Users/Renato/Documents/UFSC/Monografia/MestradoUFSC/GNSS_VHDL_PolarFire/component/Actel/DirectCore/COREDDS/4.0.108/rtl/vhdl/core/dds_rtl_pack.vhd
+    F:/Users/Renato/Documents/UFSC/Monografia/MestradoUFSC/GNSS_VHDL_PolarFire/component/work/COREDDS_C0/COREDDS_C0.vhd
+
+Stimulus files for all Simulation tools:
+    F:/Users/Renato/Documents/UFSC/Monografia/MestradoUFSC/GNSS_VHDL_PolarFire/component/work/COREDDS_C0/COREDDS_C0_0/rtl/vhdl/test/user/dds_bhvTestVectIn.vhd
+    F:/Users/Renato/Documents/UFSC/Monografia/MestradoUFSC/GNSS_VHDL_PolarFire/component/work/COREDDS_C0/COREDDS_C0_0/rtl/vhdl/test/user/dds_bhvTestVectOut.vhd
+    F:/Users/Renato/Documents/UFSC/Monografia/MestradoUFSC/GNSS_VHDL_PolarFire/component/Actel/DirectCore/COREDDS/4.0.108/coreparameters.vhd
+    F:/Users/Renato/Documents/UFSC/Monografia/MestradoUFSC/GNSS_VHDL_PolarFire/component/Actel/DirectCore/COREDDS/4.0.108/rtl/vhdl/test/user/dds_bhv_pack.vhd
+    F:/Users/Renato/Documents/UFSC/Monografia/MestradoUFSC/GNSS_VHDL_PolarFire/component/work/COREDDS_C0/COREDDS_C0_0/rtl/vhdl/test/user/dds_bhvKit.vhd
+    F:/Users/Renato/Documents/UFSC/Monografia/MestradoUFSC/GNSS_VHDL_PolarFire/component/work/COREDDS_C0/COREDDS_C0_0/rtl/vhdl/test/user/tb_dds.vhd
+
